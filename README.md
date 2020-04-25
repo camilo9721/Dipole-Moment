@@ -9,3 +9,5 @@ Bash and Python scripts needed to handle information for the dipole moment proje
   proc.py: extracts relevant information from the output files and storage it into a new file names as results.txt
   
   runall.sh: runs the proc.py file for all output fules within the /Results folder.
+
+  sub.pbs: submission file template for the NCI infrastructure
