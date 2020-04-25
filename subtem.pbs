@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -P on41
+#PBS -q normal
+#PBS -l walltime=00:15:00
+#PBS -l mem=1GB
+#PBS -l jobfs=1GB
+#PBS -l ncpus=1
+#PBS -l software=qchem
+#PBS -l wd
+
+module load qchem
+
+qchem mol.in mol.out
